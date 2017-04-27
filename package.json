@@ -7,6 +7,7 @@
     "clean": "rm -rf dist",
     "start": "node src/server/index.js --progress --colors --profile",
     "start-prod": "NODE_ENV=production npm start",
+    "start-docker": "NODE_ENV=docker npm start",
     "build": "npm run clean && NODE_ENV=production webpack -p --progress --colors --profile",
     "test": "NODE_ENV=test mocha --reporter nyan --compilers js:babel-core/register --recursive",
     "test-spec": "NODE_ENV=test mocha --compilers js:babel-core/register --recursive",

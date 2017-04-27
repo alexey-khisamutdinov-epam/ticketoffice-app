@@ -43,6 +43,10 @@
     "appRoot": "http://127.0.0.1:3002",
     "mockpurchase": true
   },
+  "docker": {
+    "appRoot": "http://127.0.0.1:3002",
+    "mockpurchase": true
+  },
   "production": {
     "appRoot": "http://my-domain/store"
   }
