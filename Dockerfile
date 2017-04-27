@@ -16,12 +16,6 @@ ADD webpack.config.js /usr/src/toa
 
 CMD [ "npm", "run", "start-docker" ]
 
-# ADD .babelrc ./
-
-# ADD data ./data
-# ADD server.js ./
-
-# ENTRYPOINT ./node_modules/.bin/babel-node  ./server.js
-
-
-# docker run -i -t -p 8080:8080 graphql-poc
+# usage:
+# docker build -t ticketoffice 
+# docker run -i -t -p 3002:80 ticketoffice
